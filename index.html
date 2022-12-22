@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My title</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css" integrity="sha512-SbiR/eusphKoMVVXysTKG/7VseWii+Y3FdHrt0EpKgpToZeemhqHeZeLWLhJutz/2ut2Vw1uQEj2MbRF+TVBUA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+    .flex{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+    .calculation{
+        max-width: 300px;
+    }
+</style>
+
+
+ <body class="bg-dark text-white">
+     <div class="flex">
+         <div class="calculation ">
+             <input id="num-1" type="number" class="from-control mb-2" placeholder="Enter Number">
+             <input id="num-2" type="number" class="from-control mb-2" placeholder="Enter the second number">
+             <button class="btn btn-outline-success" onclick="multiply()">Multipication </button>
+             <button class="btn btn-outline-danger" onclick="devide()">devision</button>
+
+             <hr>
+
+             <h5>result: <span id="result"></span></h5>
+         </div>
+     </div>
+
+    <script src='main.js'></script>
+</body>
+
+
+</html> 
